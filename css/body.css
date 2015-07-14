@@ -54,7 +54,11 @@ div#pic-text-cont div.text-active h3.pic-head {
 	font-weight: 700;
 	padding: 7px;
 	color: #252525;
-	border-bottom: solid 3px #B09261;
+}
+
+div#pic-text-cont div.text-active h3.pic-head span {
+	color: #B09261;
+	margin-right: 10px;
 }
 
 div#pic-text-cont div.text-active p.pic-text {
