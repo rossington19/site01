@@ -1,3 +1,75 @@
+body {
+	background: #dfdeff;
+}
+
 main#main-background {
-	background: #121221
+	padding: 50px;
+}
+
+ul#picture-container{
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+ul#picture-container li.picture-bubles{
+	height: 100px;
+	width: 100px;
+	background: url(../Assets/profile.jpg) center center;
+	border-radius: 100%;
+	background-size: cover;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 50px;
+}
+
+ul#picture-container li.picture-bubles:hover {
+	opacity: 0.8;
+}
+
+ul#picture-container li.picture-active{
+	height: 200px;
+	width: 200px;
+}
+
+div#pic-text-cont {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 20px 300px;
+	padding: 20px 50px;
+}
+
+div#pic-text-cont div.pic-text {
+	display: none;
+}
+
+div#pic-text-cont div.text-active {
+	display: inline-block;
+}
+
+div#pic-text-cont div.text-active h3.pic-head {
+	display: inline-block;
+	margin-bottom: 15px;
+	font-size: 26pt;
+	letter-spacing: 0.15em;
+	font-weight: 700;
+	padding: 7px;
+	color: #252525;
+	border-bottom: solid 3px #B09261;
+}
+
+div#pic-text-cont div.text-active p.pic-text {
+	display: inline-block;
+	font-size: 12pt;
+	letter-spacing: 0.15em;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+div.seperator {
+	display:block;
+	height: 6px;
+	width: 1075px;
+	margin:auto;
+	background-color: #B09261;
 }
